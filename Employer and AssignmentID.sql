@@ -1,3 +1,5 @@
+-- Simply identify which Employer or Company an Employee belongs using these quick queries for Oracle HCM Cloud
+
 SELECT DISTINCT PPNF.FULL_NAME "Employee"
 	, PAAM.ASSIGNMENT_NUMBER "AssignmentID"
 	, HOUFT.NAME "Employer"
