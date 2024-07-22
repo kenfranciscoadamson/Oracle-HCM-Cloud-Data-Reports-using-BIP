@@ -1,3 +1,5 @@
+-- obsolete
+
 SELECT DISTINCT PAPF.PERSON_NUMBER "PersonNumber"
 	, TO_CHAR(PAAM.EFFECTIVE_START_DATE, 'YYYY/MM/DD') "MinEffectiveStartDate"
 	, HOUFT_LE.NAME "LegalEmployerName"
