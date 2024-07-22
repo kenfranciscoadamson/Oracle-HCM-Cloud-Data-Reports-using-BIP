@@ -1,3 +1,4 @@
+-- specified flexfields
 SELECT DISTINCT 'MERGE' "METADATA"
 	, 'Location' "Location"
 	, TO_CHAR(PL.INTERNAL_LOCATION_CODE) "LocationCode"
